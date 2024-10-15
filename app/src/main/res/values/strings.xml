@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Animal Info App</string>
+    <string name="search_hint_hebrew">חפש בעל חיים</string>
+    <string name="search_hint_english">Search animal</string>
+    <string name="language_button_hebrew">עברית</string>
+    <string name="language_button_english">English</string>
+</resources>
