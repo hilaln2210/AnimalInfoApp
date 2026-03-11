@@ -1,5 +1,7 @@
 # Animal Info App — Animal Encyclopedia
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 An Android animal encyclopedia app with bilingual support (English and Hebrew). Browse animals by category, search by name, toggle between list and grid views, view detailed animal facts, share information, and contribute new facts via a dialog.
 
 ## Screenshots
