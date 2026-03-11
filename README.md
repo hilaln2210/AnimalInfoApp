@@ -92,56 +92,6 @@ Output APK: `app/build/outputs/apk/debug/app-debug.apk`
 
 ---
 
-## 🇮🇱 תיעוד בעברית
+## 🇮🇱 בעברית
 
-### מה הפרויקט עושה
-
-אפליקציית אנציקלופדיה לבעלי חיים לאנדרואיד, התומכת בשתי שפות — עברית ואנגלית. המשתמש יכול לגלוש בין בעלי חיים לפי קטגוריה, לחפש לפי שם, לעבור בין תצוגת רשת לתצוגת רשימה, לצפות בפרטים ועובדות על כל חיה, לשתף מידע עם אפליקציות אחרות ואף להוסיף עובדות חדשות דרך דיאלוג ייעודי.
-
-מעבר בין עברית לאנגלית מתבצע בלחיצה אחת — כל שמות החיות ורכיבי הממשק מתעדכנים מיידית.
-
-### טכנולוגיות
-
-- **Kotlin** — שפת הפיתוח
-- **Jetpack Compose (Material 3)** — בניית ממשק המשתמש, כולל צבעים דינמיים (Material You)
-- **MVVM** — ארכיטקטורה עם `AnimalViewModel` לניהול מצב האפליקציה
-- **Gradle עם Kotlin DSL** — מערכת בנייה וניהול גרסאות
-- **Min SDK 24, Target SDK 34** — תמיכה רחבה במכשירים
-
-### הוראות התקנה והפעלה
-
-**דרישות מוקדמות:**
-- Android Studio Hedgehog (2023.1.1) ומעלה
-- Android SDK עם API 34
-- JDK 17+
-
-**הפעלה דרך Android Studio:**
-1. פתחו את תיקיית `AnimalInfoApp` ב-Android Studio
-2. המתינו לסיום סנכרון Gradle
-3. חברו מכשיר אנדרואיד או הפעילו אמולטור (API 24+)
-4. לחצו על **Run > Run 'app'** או הקישו `Shift+F10`
-
-**בנייה מהטרמינל:**
-```bash
-./gradlew assembleDebug
-```
-קובץ ה-APK נוצר בנתיב: `app/build/outputs/apk/debug/app-debug.apk`
-
-### מבנה הפרויקט
-
-```
-AnimalInfoApp/
-├── app/src/main/java/com/example/animalinfoapp/
-│   ├── MainActivity.kt          # נקודת כניסה — מסך פתיחה ומעבר לראשי
-│   ├── AnimalViewModel.kt       # לוגיקה עסקית ומצב האפליקציה
-│   ├── AnimalItem.kt            # מודל הנתונים של חיה
-│   ├── AnimalList.kt            # תצוגת רשימה
-│   ├── AnimalGrid.kt            # תצוגת רשת
-│   ├── AnimalDetails.kt         # מסך פרטי חיה
-│   ├── CategorySelector.kt      # סינון לפי קטגוריה
-│   ├── SearchBar.kt             # חיפוש + מתג שפה/תצוגה
-│   ├── SplashScreen.kt          # מסך פתיחה מונפש
-│   ├── AddContributionDialog.kt # דיאלוג הוספת עובדה
-│   └── ShareUtils.kt            # שיתוף תוכן לאפליקציות אחרות
-└── gradle/libs.versions.toml    # קטלוג גרסאות תלויות
-```
+אפליקציית Android — אנציקלופדיית חיות דו-לשונית (עברית/אנגלית). גלישה לפי קטגוריה, חיפוש, תצוגת רשת/רשימה, פרטי חיה ושיתוף.
