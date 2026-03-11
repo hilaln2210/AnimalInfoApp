@@ -4,7 +4,9 @@ An Android animal encyclopedia app with bilingual support (English and Hebrew). 
 
 ## Screenshots
 
-> Screenshots available after running on an Android emulator or physical device.
+| Splash Screen | Animal Grid | Animal Detail |
+|---|---|---|
+| ![Splash Screen](screenshots/splash.png) | ![Animal Grid](screenshots/animal_grid.png) | ![Animal Detail](screenshots/animal_detail.png) |
 
 ## Features
 
